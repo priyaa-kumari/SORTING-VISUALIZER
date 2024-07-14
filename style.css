@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+nav {
+    background-color: rgb(122, 52, 52);
+    color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 60%;
+        grid-template-columns: 30% 60%;
+    -webkit-column-gap: 10%;
+            column-gap: 10%;
+    padding: 0% 2%;
+}
+
+nav .array-inputs {
+    display: grid;
+    grid-template-columns: 45% 50%;
+    place-content: center;
+    padding: 5% 0%;
+}
+
+nav .array-inputs #a_size {
+    padding: 8% 0%;
+    background-color: black;
+}
+
+nav .array-inputs #a_speed {
+    padding: 16% 0%;
+}
+
+nav .array-inputs #a_generate {
+    background-color: rgb(230, 237, 167);
+    border: solid;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+    padding: 5% 2% 5% 0%;
+    padding-left: 0%;
+}
+
+nav .array-inputs #a_generate:hover {
+    cursor: pointer;
+}
+
+nav .header_right {
+    display: flex;
+    width: 100%;
+    padding: 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+    display: inline-block;
+    font-size: xxx-large;
+    padding: 3% 7%;
+}
+
+nav .header_right .algos {
+    display: grid;
+    grid-template-columns: repeat(9, 19.66667%);
+    place-content: center;
+    padding: 4% 0%;
+}
+
+nav .header_right .algos button {
+    background-color: wheat;
+    border: black solid;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    padding: 5% 0%;
+    font-size: x-large;
+}
+
+nav .header_right .algos button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+    background-color: white;
+    color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+}
+
+section #array_container {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
